@@ -69,7 +69,9 @@ public class QuestionD {
 			int[] sums = sumsAcrossRange(arr, ranges[i][0], ranges[i][1], Ar, Tr, Cr, Gr);
 			/*
 			 * Here is where you have to sort the final frequencies and print to screen, so
-			 * now we have something that looks like [2, 5, 2, 1] ^ ^ ^ ^ [A, T, C, G]
+			 * now we have something that looks like [2, 5, 2, 1] 
+			 					  !  !  !  ! 
+								  A  T  C  G
 			 */
 			String answer = "";
 			int[] accendingSortedSums = new int[4];
