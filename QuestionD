@@ -63,7 +63,7 @@ public class QuestionD {
 			arr[7][right]=Gr;
 		}
 		//this is the only portion of the program that runs for each pair of points--->>( m )
-		for(int i=0; i<=m; i++) {
+		for(int i=0; i<m; i++) {
 			System.out.println(ranges[i][0] +", "+ ranges[i][1]);
 			int[] sums = sumsAcrossRange(arr, ranges[i][0], ranges[i][1], Ar, Tr, Cr, Gr);
 			/*
