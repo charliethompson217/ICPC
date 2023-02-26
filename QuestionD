@@ -10,7 +10,7 @@ public class QuestionD {
 		String str = "TATATGCTCT";
 		int[][] ranges = {{1,10},{6,10},{6,6}};
 		int n=str.length();
-		int m = ranges[0].length;
+		int m = ranges.length;
 
 		//cumulative frequencies buckets
 		int Al=0, Ar=0, Tl=0, Tr=0, Cl=0, Cr=0, Gl=0, Gr=0;
